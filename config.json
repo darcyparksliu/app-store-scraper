@@ -1,0 +1,33 @@
+
+{
+        "root_folder": "/home/darpa32/MESAM Web Data/App Stores/",
+        "gplay_apps": [
+                {
+                        "name": "Tibber Android",
+                        "text_id": "com.tibber.android"
+                },
+                {
+                        "name": "Greenely Android",
+                        "text_id": "greenely.greenely"
+                },
+                {
+                        "name": "Svea Solar (IKEA) Android",
+                        "text_id": "com.sveasolar.app.prod"
+                }
+        ],
+        "apple_apps": [
+                {
+                        "name": "Tibber iOS",
+                        "numerical_id": "1127805969"
+                },
+                {
+                        "name": "Greenely iOS",
+                        "numerical_id": "980936827"
+                },
+                {
+                        "name": "Svea Solar (IKEA) iOS",
+                        "numerical_id": "1540236481"
+                }
+        ]
+}
+

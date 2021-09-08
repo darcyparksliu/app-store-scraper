@@ -1,0 +1,145 @@
+{
+        "gplay_apps": [
+                {
+                        "name": "Tibber Android",
+                        "text_id": "com.tibber.android",
+			"locales": [
+				{
+					"lang": "sv",
+					"country": "sv"
+				},
+				{
+					"lang": "en_GB",
+					"country": "UK"
+				}
+			]
+                },
+                {
+                        "name": "Greenely Android",
+                        "text_id": "greenely.greenely",
+			"locales": [
+				{
+					"lang": "sv",
+					"country": "sv"
+				},
+				{
+					"lang": "en_GB",
+					"country": "UK"
+				}
+			]
+
+                },
+                {
+                        "name": "Svea Solar (IKEA) Android",
+                        "text_id": "com.sveasolar.app.prod",
+			"locales": [
+				{
+					"lang": "sv",
+					"country": "sv"
+				}
+			]
+                },
+		{
+                        "name": "M Android",
+                        "text_id": "co.m.app",
+			"locales": [
+				{
+					"lang": "sv",
+					"country": "sv"
+				}
+			]
+			
+		},
+		{
+                        "name": "Karma Android",
+                        "text_id": "com.karma.life",
+			"locales": [
+				{
+					"lang": "sv",
+					"country": "sv"
+				}
+			]
+			
+		},
+		{
+			"name": "Travis Android",
+			"text_id": "com.nobina.travis",
+			"locales": [
+				{
+					"lang": "sv",
+					"country": "sv"
+				}
+			]
+		}
+        ],
+        "apple_apps": [
+                {
+                        "name": "Tibber iOS",
+                        "numerical_id": "1127805969",
+			"locales": [
+				{
+					"lang": "sv",
+					"country": "se"
+				},
+				{
+					"lang": "en-gb",
+					"country": "gb"
+				}
+			]
+                },
+                {
+                        "name": "Greenely iOS",
+                        "numerical_id": "980936827",
+			"locales": [
+				{
+					"lang": "sv",
+					"country": "se"
+				},
+				{
+					"lang": "en-gb",
+					"country": "gb"
+				}
+			]
+                },
+                {
+                        "name": "Svea Solar (IKEA) iOS",
+                        "numerical_id": "1540236481",
+			"locales": [
+				{
+					"lang": "sv",
+					"country": "se"
+				}
+			]
+                },
+                {
+                        "name": "M iOS",
+                        "numerical_id": "1449988777",
+			"locales": [
+				{
+					"lang": "sv",
+					"country": "se"
+				}
+			]
+                },
+		{
+			"name": "Karma iOS",
+			"numerical_id": "1087490062",
+			"locales": [
+				{
+					"lang": "sv",
+					"country": "se"
+				}
+			]
+		},
+		{
+			"name": "Travis iOS",
+			"numerical_id": "1219489195",
+			"locales": [
+				{
+					"lang": "sv",
+					"country": "se"
+				}
+			]
+		}
+        ]
+}

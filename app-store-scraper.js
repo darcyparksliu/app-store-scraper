@@ -4,13 +4,18 @@ const fs = require('fs').promises;
 const fetch = require('node-fetch');
 
 const CONFIG = require('./config.json');
+const APPCONFIG = require('./apps.json');
 
 async function scrape_app (store, app_details) {
 	store.app(app_details).
 		then((response) => {
 			var foldername = CONFIG.root_folder.
 				concat(app_details.name).
-				concat('/').
+				concat('(').
+				concat(app_details.country).
+				concat('.').
+				concat(app_details.lang).
+				concat(')/').
 				concat(new Date().toISOString());
 			fs.mkdir(foldername, { recursive: true }).
 				then ( () => {
@@ -29,10 +34,14 @@ async function scrape_app (store, app_details) {
 		});
 }
 
-for (app of CONFIG.gplay_apps) {
-	scrape_app(gplay, {name: app.name, appId: app.text_id, lang: 'sv', country: 'sv'});
+for (app of APPCONFIG.gplay_apps) {
+	for (locale of app.locales) {
+		scrape_app(gplay, {name: app.name, appId: app.text_id, lang: locale.lang, country: locale.country});
+	}
 }
 
-for (app of CONFIG.apple_apps) {
-	scrape_app(apple, {name: app.name, id: app.numerical_id, lang: 'sv', country: 'se'});
+for (app of APPCONFIG.apple_apps) {
+	for (locale of app.locales) {
+		scrape_app(apple, {name: app.name, id: app.numerical_id, lang: locale.lang, country: locale.country});
+	}
 }

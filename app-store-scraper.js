@@ -32,18 +32,6 @@ async function scrape_app (store, app_details) {
 		});
 }
 
-/*let gplay_apps = [
-	{name: 'Tibber Android', text_id: 'com.tibber.android'},
-	{name: 'Greenely Android', text_id: 'greenely.greenely'},
-	{name: 'Svea Solar (IKEA) Android', text_id: 'com.sveasolar.app.prod'}
-];
-let apple_apps = [
-	{name: 'Tibber iOS', numerical_id: '1127805969'},
-	{name: 'Greenely iOS', numerical_id: '980936827'},
-	{name: 'Svea Solar (IKEA) iOS', numerical_id: '1540236481'}
-];*/
-
-
 for (app of CONFIG.gplay_apps) {
 	scrape_app(gplay, {name: app.name, appId: app.text_id, lang: 'sv', country: 'sv'});
 }

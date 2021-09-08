@@ -14,15 +14,12 @@ async function scrape_app (store, app_details) {
 				concat(new Date().toISOString());
 			fs.mkdir(foldername, { recursive: true }).
 				then ( () => {
-					//let datatxt = response.title.concat(response.
 					fs.writeFile(foldername.concat('/data.json'), JSON.stringify(response, null, 2));
 				}).
 				then ( () => {
-					//xx
 					let screenshotnum = 0;
 					for (screenshot of response.screenshots) {
 						screenshotnum = screenshotnum + 1;
-						// 1. make a filename for the screenshot, maybe just number them
 						let filename = foldername.concat('/screenshot').concat(screenshotnum).concat('.png');
 						fetch(screenshot).
 							then( res => res.arrayBuffer()).

@@ -31,6 +31,10 @@ async function scrape_app (store, app_details) {
 							then( b => fs.writeFile(filename, Buffer.from(b)));
 					}
 				});
+		}).
+		catch(error => {
+			console.log('Error:', app_details.name);
+			console.log(error);
 		});
 }
 

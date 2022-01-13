@@ -1,0 +1,8 @@
+{
+  "name": "electricity-app-scraper",
+  "dependencies": {
+    "app-store-scraper": "^0.17.0",
+    "google-play-scraper": "github:facundoolano/google-play-scraper",
+    "node-fetch": "^2.6.4"
+  }
+}

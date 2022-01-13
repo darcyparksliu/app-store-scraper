@@ -1,145 +1,602 @@
 {
-        "gplay_apps": [
-                {
-                        "name": "Tibber Android",
-                        "text_id": "com.tibber.android",
-			"locales": [
-				{
-					"lang": "sv",
-					"country": "sv"
-				},
-				{
-					"lang": "en_GB",
-					"country": "UK"
-				}
-			]
-                },
-                {
-                        "name": "Greenely Android",
-                        "text_id": "greenely.greenely",
-			"locales": [
-				{
-					"lang": "sv",
-					"country": "sv"
-				},
-				{
-					"lang": "en_GB",
-					"country": "UK"
-				}
-			]
-
-                },
-                {
-                        "name": "Svea Solar (IKEA) Android",
-                        "text_id": "com.sveasolar.app.prod",
-			"locales": [
-				{
-					"lang": "sv",
-					"country": "sv"
-				}
-			]
-                },
-		{
-                        "name": "M Android",
-                        "text_id": "co.m.app",
-			"locales": [
-				{
-					"lang": "sv",
-					"country": "sv"
-				}
-			]
-			
-		},
-		{
-                        "name": "Karma Android",
-                        "text_id": "com.karma.life",
-			"locales": [
-				{
-					"lang": "sv",
-					"country": "sv"
-				}
-			]
-			
-		},
-		{
-			"name": "Travis Android",
-			"text_id": "com.nobina.travis",
-			"locales": [
-				{
-					"lang": "sv",
-					"country": "sv"
-				}
-			]
-		}
-        ],
-        "apple_apps": [
-                {
-                        "name": "Tibber iOS",
-                        "numerical_id": "1127805969",
-			"locales": [
-				{
-					"lang": "sv",
-					"country": "se"
-				},
-				{
-					"lang": "en-gb",
-					"country": "gb"
-				}
-			]
-                },
-                {
-                        "name": "Greenely iOS",
-                        "numerical_id": "980936827",
-			"locales": [
-				{
-					"lang": "sv",
-					"country": "se"
-				},
-				{
-					"lang": "en-gb",
-					"country": "gb"
-				}
-			]
-                },
-                {
-                        "name": "Svea Solar (IKEA) iOS",
-                        "numerical_id": "1540236481",
-			"locales": [
-				{
-					"lang": "sv",
-					"country": "se"
-				}
-			]
-                },
-                {
-                        "name": "M iOS",
-                        "numerical_id": "1449988777",
-			"locales": [
-				{
-					"lang": "sv",
-					"country": "se"
-				}
-			]
-                },
-		{
-			"name": "Karma iOS",
-			"numerical_id": "1087490062",
-			"locales": [
-				{
-					"lang": "sv",
-					"country": "se"
-				}
-			]
-		},
-		{
-			"name": "Travis iOS",
-			"numerical_id": "1219489195",
-			"locales": [
-				{
-					"lang": "sv",
-					"country": "se"
-				}
-			]
-		}
-        ]
+  "gplay_apps": [
+    {
+      "name": "Tibber Android",
+      "text_id": "com.tibber.android",
+      "locales": [
+        {
+          "lang": "sv",
+          "country": "sv"
+        },
+        {
+          "lang": "en_GB",
+          "country": "UK"
+        }
+      ]
+    },
+    {
+      "name": "Greenely Android",
+      "text_id": "greenely.greenely",
+      "locales": [
+        {
+          "lang": "sv",
+          "country": "sv"
+        },
+        {
+          "lang": "en_GB",
+          "country": "UK"
+        }
+      ]
+    },
+    {
+      "name": "Svea Solar (IKEA) Android",
+      "text_id": "com.sveasolar.app.prod",
+      "locales": [
+        {
+          "lang": "sv",
+          "country": "sv"
+        }
+      ]
+    },
+    {
+      "name": "M Android",
+      "text_id": "co.m.app",
+      "locales": [
+        {
+          "lang": "sv",
+          "country": "sv"
+        }
+      ]
+    },
+    {
+      "name": "Karma Android",
+      "text_id": "com.karma.life",
+      "locales": [
+        {
+          "lang": "sv",
+          "country": "sv"
+        }
+      ]
+    },
+    {
+      "name": "Travis Android",
+      "text_id": "com.nobina.travis",
+      "locales": [
+        {
+          "lang": "sv",
+          "country": "sv"
+        }
+      ]
+    },
+    {
+      "name": "OKQ8 Hemma Android",
+      "text_id": "com.okq8.el",
+      "locales": [
+        {
+          "lang": "sv",
+          "country": "sv"
+        }
+      ]
+    },
+    {
+      "name": "AB Borlänge Energi Android",
+      "text_id": "se.borlangeenergi.app.extern",
+      "locales": [
+        {
+          "lang": "sv",
+          "country": "sv"
+        }
+      ]
+    },
+    {
+      "name": "Ale El Elhandel AB Android",
+      "text_id": "se.energiinfo.timspot",
+      "locales": [
+        {
+          "lang": "sv",
+          "country": "sv"
+        }
+      ]
+    },
+    {
+      "name": "Boo Energi Försäljnings AB Android",
+      "text_id": "com.e2e.app",
+      "locales": [
+        {
+          "lang": "sv",
+          "country": "sv"
+        }
+      ]
+    },
+    {
+      "name": "Dogoodel AB Android",
+      "text_id": "se.dogoodel.dogoodel",
+      "locales": [
+        {
+          "lang": "sv",
+          "country": "sv"
+        }
+      ]
+    },
+    {
+      "name": "E.ON Energilösningar AB Android",
+      "text_id": "se.eon.mobile.android.koll",
+      "locales": [
+        {
+          "lang": "sv",
+          "country": "sv"
+        }
+      ]
+    },
+    {
+      "name": "E.ON Home Android",
+      "text_id": "com.eon.home.eu",
+      "locales": [
+        {
+          "lang": "sv",
+          "country": "sv"
+        }
+      ]
+    },
+    {
+      "name": "ETC Elhandel i Stockholm AB Android",
+      "text_id": "se.etc.el",
+      "locales": [
+        {
+          "lang": "sv",
+          "country": "sv"
+        }
+      ]
+    },
+    {
+      "name": "Fyrfasen Energi AB Android",
+      "text_id": "se.fyrfasen.getbright",
+      "locales": [
+        {
+          "lang": "sv",
+          "country": "sv"
+        }
+      ]
+    },
+    {
+      "name": "Gävle Energisystem AB Android",
+      "text_id": "se.gavle.getbright.app",
+      "locales": [
+        {
+          "lang": "sv",
+          "country": "sv"
+        }
+      ]
+    },
+    {
+      "name": "Göteborg Energi Din El AB Android",
+      "text_id": "se.goteborgenergi.goteborgenergi",
+      "locales": [
+        {
+          "lang": "sv",
+          "country": "sv"
+        }
+      ]
+    },
+    {
+      "name": "Jämtkraft AB Android",
+      "text_id": "se.getbright.jamtkraft",
+      "locales": [
+        {
+          "lang": "sv",
+          "country": "sv"
+        }
+      ]
+    },
+    {
+      "name": "Jönköping Energi AB Android",
+      "text_id": "se.getbright.jonkoping",
+      "locales": [
+        {
+          "lang": "sv",
+          "country": "sv"
+        }
+      ]
+    },
+    {
+      "name": "Luleå Energi AB Android",
+      "text_id": "se.lulea.getbright.app",
+      "locales": [
+        {
+          "lang": "sv",
+          "country": "sv"
+        }
+      ]
+    },
+    {
+      "name": "Mälarenergi AB Android",
+      "text_id": "se.getbright.malarenergi",
+      "locales": [
+        {
+          "lang": "sv",
+          "country": "sv"
+        }
+      ]
+    },
+    {
+      "name": "Nossebro Energi Försäljnings AB Android",
+      "text_id": "com.energiinfo.nossebroenergi",
+      "locales": [
+        {
+          "lang": "sv",
+          "country": "sv"
+        }
+      ]
+    },
+    {
+      "name": "Sala-Heby Energi AB Android",
+      "text_id": "com.energiinfo.she",
+      "locales": [
+        {
+          "lang": "sv",
+          "country": "sv"
+        }
+      ]
+    },
+    {
+      "name": "Telge Energi AB Android",
+      "text_id": "se.cnet.telgesolel",
+      "locales": [
+        {
+          "lang": "sv",
+          "country": "sv"
+        }
+      ]
+    },
+    {
+      "name": "Uddevalla Energi AB Android",
+      "text_id": "se.uddevallaenergi.ueapp",
+      "locales": [
+        {
+          "lang": "sv",
+          "country": "sv"
+        }
+      ]
+    },
+    {
+      "name": "Västerbergslagens Elförsäljning AB Android",
+      "text_id": "se.vbenergi.app.extern",
+      "locales": [
+        {
+          "lang": "sv",
+          "country": "sv"
+        }
+      ]
+    },
+    {
+      "name": "PiteEnergi Handel AB Android",
+      "text_id": "se.pite.app",
+      "locales": [
+        {
+          "lang": "sv",
+          "country": "sv"
+        }
+      ]
+    },
+    {
+      "name": "Ikea Home smart Android",
+      "text_id": "com.ikea.tradfri.lighting",
+      "locales": [
+        {
+          "lang": "sv",
+          "country": "sv"
+        }
+      ]
+    },
+    {
+      "name": "Ellevio Android",
+      "text_id": "se.ellevio.getbright",
+      "locales": [
+        {
+          "lang": "sv",
+          "country": "sv"
+        }
+      ]
+    }
+  ],
+  "apple_apps": [
+    {
+      "name": "Tibber iOS",
+      "numerical_id": "1127805969",
+      "locales": [
+        {
+          "lang": "sv",
+          "country": "se"
+        },
+        {
+          "lang": "en-gb",
+          "country": "gb"
+        }
+      ]
+    },
+    {
+      "name": "Greenely iOS",
+      "numerical_id": "980936827",
+      "locales": [
+        {
+          "lang": "sv",
+          "country": "se"
+        },
+        {
+          "lang": "en-gb",
+          "country": "gb"
+        }
+      ]
+    },
+    {
+      "name": "Svea Solar (IKEA) iOS",
+      "numerical_id": "1540236481",
+      "locales": [
+        {
+          "lang": "sv",
+          "country": "se"
+        }
+      ]
+    },
+    {
+      "name": "M iOS",
+      "numerical_id": "1449988777",
+      "locales": [
+        {
+          "lang": "sv",
+          "country": "se"
+        }
+      ]
+    },
+    {
+      "name": "Karma iOS",
+      "numerical_id": "1087490062",
+      "locales": [
+        {
+          "lang": "sv",
+          "country": "se"
+        }
+      ]
+    },
+    {
+      "name": "Travis iOS",
+      "numerical_id": "1219489195",
+      "locales": [
+        {
+          "lang": "sv",
+          "country": "se"
+        }
+      ]
+    },
+    {
+      "name": "OKQ8 Hemma iOS",
+      "numerical_id": "1509925955",
+      "locales": [
+        {
+          "lang": "sv",
+          "country": "se"
+        }
+      ]
+    },
+    {
+      "name": "AB Borlänge Energi iOS",
+      "numerical_id": "1206279225",
+      "locales": [
+        {
+          "lang": "sv",
+          "country": "se"
+        }
+      ]
+    },
+    {
+      "name": "Ale El Elhandel AB iOS",
+      "numerical_id": "625297262",
+      "locales": [
+        {
+          "lang": "sv",
+          "country": "se"
+        }
+      ]
+    },
+    {
+      "name": "Boo Energi Försäljnings AB iOS",
+      "numerical_id": "1275220058",
+      "locales": [
+        {
+          "lang": "sv",
+          "country": "se"
+        }
+      ]
+    },
+    {
+      "name": "Dogoodel AB iOS",
+      "numerical_id": "1566581276",
+      "locales": [
+        {
+          "lang": "sv",
+          "country": "se"
+        }
+      ]
+    },
+    {
+      "name": "E.ON Energilösningar AB iOS",
+      "numerical_id": "767325716",
+      "locales": [
+        {
+          "lang": "sv",
+          "country": "se"
+        }
+      ]
+    },
+    {
+      "name": "E.ON Home iOS",
+      "numerical_id": "1468486784",
+      "locales": [
+        {
+          "lang": "sv",
+          "country": "se"
+        }
+      ]
+    },
+    {
+      "name": "ETC Elhandel i Stockholm AB iOS",
+      "numerical_id": "1464116769",
+      "locales": [
+        {
+          "lang": "sv",
+          "country": "se"
+        }
+      ]
+    },
+    {
+      "name": "Fyrfasen Energi AB iOS",
+      "numerical_id": "1480251862",
+      "locales": [
+        {
+          "lang": "sv",
+          "country": "se"
+        }
+      ]
+    },
+    {
+      "name": "Gävle Energisystem AB iOS",
+      "numerical_id": "1564270237",
+      "locales": [
+        {
+          "lang": "sv",
+          "country": "se"
+        }
+      ]
+    },
+    {
+      "name": "Göteborg Energi Din El AB iOS",
+      "numerical_id": "1584818997",
+      "locales": [
+        {
+          "lang": "sv",
+          "country": "se"
+        }
+      ]
+    },
+    {
+      "name": "Jämtkraft AB iOS",
+      "numerical_id": "1574878573",
+      "locales": [
+        {
+          "lang": "sv",
+          "country": "se"
+        }
+      ]
+    },
+    {
+      "name": "Jönköping Energi AB iOS",
+      "numerical_id": "1085487616",
+      "locales": [
+        {
+          "lang": "sv",
+          "country": "se"
+        }
+      ]
+    },
+    {
+      "name": "Luleå Energi AB iOS",
+      "numerical_id": "1564296277",
+      "locales": [
+        {
+          "lang": "sv",
+          "country": "se"
+        }
+      ]
+    },
+    {
+      "name": "Mälarenergi AB iOS",
+      "numerical_id": "1498030299",
+      "locales": [
+        {
+          "lang": "sv",
+          "country": "se"
+        }
+      ]
+    },
+    {
+      "name": "Nossebro Energi Försäljnings AB iOS",
+      "numerical_id": "1498455092",
+      "locales": [
+        {
+          "lang": "sv",
+          "country": "se"
+        }
+      ]
+    },
+    {
+      "name": "Sala-Heby Energi AB iOS",
+      "numerical_id": "589093524",
+      "locales": [
+        {
+          "lang": "sv",
+          "country": "se"
+        }
+      ]
+    },
+    {
+      "name": "Telge Energi AB iOS",
+      "numerical_id": "1219313881",
+      "locales": [
+        {
+          "lang": "sv",
+          "country": "se"
+        }
+      ]
+    },
+    {
+      "name": "Uddevalla Energi AB iOS",
+      "numerical_id": "1101754644",
+      "locales": [
+        {
+          "lang": "sv",
+          "country": "se"
+        }
+      ]
+    },
+    {
+      "name": "Västerbergslagens Elförsäljning AB iOS",
+      "numerical_id": "1457676207",
+      "locales": [
+        {
+          "lang": "sv",
+          "country": "se"
+        }
+      ]
+    },
+    {
+      "name": "PiteEnergi Handel AB iOS",
+      "numerical_id": "1538625850",
+      "locales": [
+        {
+          "lang": "sv",
+          "country": "se"
+        }
+      ]
+    },
+    {
+      "name": "IKEA Home smart iOS",
+      "numerical_id": "1195836071",
+      "locales": [
+        {
+          "lang": "sv",
+          "country": "se"
+        }
+      ]
+    },
+    {
+      "name": "Ellevio iOS",
+      "numerical_id": "1506954034",
+      "locales": [
+        {
+          "lang": "sv",
+          "country": "se"
+        }
+      ]
+    }
+  ]
 }

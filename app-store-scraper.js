@@ -9,6 +9,7 @@ const APPCONFIG = require('./apps.json');
 async function scrape_app (store, app_details) {
 	store.app(app_details).
 		then((response) => {
+			console.log(app_details.name);
 			var foldername = CONFIG.root_folder.
 				concat(app_details.name).
 				concat('(').

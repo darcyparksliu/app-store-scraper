@@ -2,7 +2,7 @@
   "name": "electricity-app-scraper",
   "dependencies": {
     "app-store-scraper": "^0.17.0",
-    "google-play-scraper": "git+https://github.com/facundoolano/google-play-scraper#pull/545/head",
+    "google-play-scraper": "^9.1.1",
     "node-fetch": "^2.6.7"
   }
 }

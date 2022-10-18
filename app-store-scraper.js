@@ -2,6 +2,7 @@ const gplay = require('google-play-scraper');
 const apple = require('app-store-scraper');
 const fs = require('fs').promises;
 const fetch = require('node-fetch');
+const path = require('path');
 
 const CONFIG = require('./config.json');
 
@@ -98,7 +99,7 @@ function process_row (row) {
 	
 }
 
-csv.parseFile('appdatabase.csv', { headers: true})
+csv.parseFile(path.join(__dirname,'/appdatabase.csv'), { headers: true})
 	.on('error', error => console.error(error))
 	//.on('data', row => console.log(`ROW=${JSON.stringify(row)}`))
 	//.on('data', row => console.log(row['Category']))
